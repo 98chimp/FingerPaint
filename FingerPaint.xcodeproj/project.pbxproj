@@ -14,6 +14,8 @@
 		EBD9F1451ABD1C1E00ADF6DB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBD9F1441ABD1C1E00ADF6DB /* Images.xcassets */; };
 		EBD9F1481ABD1C1E00ADF6DB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EBD9F1461ABD1C1E00ADF6DB /* LaunchScreen.xib */; };
 		EBD9F1541ABD1C1E00ADF6DB /* FingerPaintTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD9F1531ABD1C1E00ADF6DB /* FingerPaintTests.m */; };
+		EBD9F1621ABDEB4F00ADF6DB /* FingerDraw.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD9F1611ABDEB4F00ADF6DB /* FingerDraw.m */; };
+		EBD9F1651ABE3DEF00ADF6DB /* Canvas.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD9F1641ABE3DEF00ADF6DB /* Canvas.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,10 @@
 		EBD9F14D1ABD1C1E00ADF6DB /* FingerPaintTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FingerPaintTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBD9F1521ABD1C1E00ADF6DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EBD9F1531ABD1C1E00ADF6DB /* FingerPaintTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FingerPaintTests.m; sourceTree = "<group>"; };
+		EBD9F1601ABDEB4F00ADF6DB /* FingerDraw.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FingerDraw.h; sourceTree = "<group>"; };
+		EBD9F1611ABDEB4F00ADF6DB /* FingerDraw.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FingerDraw.m; sourceTree = "<group>"; };
+		EBD9F1631ABE3DEF00ADF6DB /* Canvas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Canvas.h; sourceTree = "<group>"; };
+		EBD9F1641ABE3DEF00ADF6DB /* Canvas.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Canvas.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,7 +91,11 @@
 				EBD9F13C1ABD1C1D00ADF6DB /* AppDelegate.m */,
 				EBD9F13E1ABD1C1D00ADF6DB /* ViewController.h */,
 				EBD9F13F1ABD1C1D00ADF6DB /* ViewController.m */,
+				EBD9F1631ABE3DEF00ADF6DB /* Canvas.h */,
+				EBD9F1641ABE3DEF00ADF6DB /* Canvas.m */,
 				EBD9F1411ABD1C1D00ADF6DB /* Main.storyboard */,
+				EBD9F1601ABDEB4F00ADF6DB /* FingerDraw.h */,
+				EBD9F1611ABDEB4F00ADF6DB /* FingerDraw.m */,
 				EBD9F1441ABD1C1E00ADF6DB /* Images.xcassets */,
 				EBD9F1461ABD1C1E00ADF6DB /* LaunchScreen.xib */,
 				EBD9F1371ABD1C1D00ADF6DB /* Supporting Files */,
@@ -219,8 +229,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EBD9F1621ABDEB4F00ADF6DB /* FingerDraw.m in Sources */,
 				EBD9F1401ABD1C1D00ADF6DB /* ViewController.m in Sources */,
 				EBD9F13D1ABD1C1D00ADF6DB /* AppDelegate.m in Sources */,
+				EBD9F1651ABE3DEF00ADF6DB /* Canvas.m in Sources */,
 				EBD9F13A1ABD1C1D00ADF6DB /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
