@@ -12,5 +12,6 @@
 
 @property (strong, nonatomic) UIColor *colorPicked;
 @property (assign, nonatomic) float strokeWidth;
+@property (strong, nonatomic) UIPanGestureRecognizer *pan;
 
 @end

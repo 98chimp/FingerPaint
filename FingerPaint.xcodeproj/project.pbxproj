@@ -426,6 +426,7 @@
 				EBD9F1591ABD1C1E00ADF6DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EBD9F15A1ABD1C1E00ADF6DB /* Build configuration list for PBXNativeTarget "FingerPaintTests" */ = {
 			isa = XCConfigurationList;
@@ -434,6 +435,7 @@
 				EBD9F15C1ABD1C1E00ADF6DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

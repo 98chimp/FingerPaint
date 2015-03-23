@@ -26,8 +26,8 @@ static CGPoint midpoint(CGPoint p0, CGPoint p1) {
 
 - (void)commonInit {
     path = [UIBezierPath bezierPath];
-    self.strokeWidth = 1.0;
-    self.colorPicked = [UIColor blackColor];
+    self.strokeWidth = 8.0;
+    self.colorPicked = [UIColor redColor];
 
     
     // Capture touches
@@ -45,6 +45,7 @@ static CGPoint midpoint(CGPoint p0, CGPoint p1) {
     if (self = [super initWithCoder:aDecoder]) [self commonInit];
     return self;
 }
+
 - (id)initWithFrame:(CGRect)frame
 {
     if (self = [super initWithFrame:frame]) [self commonInit];

@@ -3,6 +3,7 @@
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -116,7 +117,7 @@
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="NTR-n4-auc" secondAttribute="height" multiplier="57:14" id="j0P-Il-zba"/>
                                         </constraints>
-                                        <state key="normal" title="clear">
+                                        <state key="normal" title="eraser">
                                             <color key="titleColor" red="0.80000001192092896" green="0.80000001192092896" blue="0.80000001192092896" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
                                         <connections>
@@ -152,26 +153,38 @@
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="1kK-6M-EFj" secondAttribute="height" multiplier="60:49" id="O7M-hB-kYM"/>
                                 </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="O7M-hB-kYM"/>
+                                    </mask>
+                                </variation>
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <gestureRecognizers/>
                         <constraints>
                             <constraint firstAttribute="centerX" secondItem="c9g-yd-jbq" secondAttribute="centerX" id="6UP-Jj-5BS"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="1kK-6M-EFj" secondAttribute="trailing" constant="-16" id="9il-5H-yOj"/>
                             <constraint firstItem="c9g-yd-jbq" firstAttribute="top" relation="greaterThanOrEqual" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="470" id="AzB-c7-nsX"/>
                             <constraint firstItem="1kK-6M-EFj" firstAttribute="width" secondItem="6Fk-oj-4lQ" secondAttribute="width" id="Hbh-cY-HBG"/>
                             <constraint firstAttribute="centerX" secondItem="1kK-6M-EFj" secondAttribute="centerX" id="Hkg-u6-Mxe"/>
                             <constraint firstItem="1kK-6M-EFj" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="-20" id="IrL-w3-oe9"/>
                             <constraint firstItem="6Fk-oj-4lQ" firstAttribute="top" relation="greaterThanOrEqual" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="480" id="JTo-fk-MoS"/>
+                            <constraint firstItem="c9g-yd-jbq" firstAttribute="top" secondItem="1kK-6M-EFj" secondAttribute="bottom" id="LXZ-UD-XOb"/>
                             <constraint firstAttribute="width" secondItem="6Fk-oj-4lQ" secondAttribute="width" id="Ork-Qb-yth"/>
                             <constraint firstItem="1kK-6M-EFj" firstAttribute="width" secondItem="c9g-yd-jbq" secondAttribute="width" id="YQD-M5-b17"/>
                             <constraint firstItem="6Fk-oj-4lQ" firstAttribute="top" secondItem="c9g-yd-jbq" secondAttribute="bottom" id="ZZm-cR-0dT"/>
+                            <constraint firstItem="1kK-6M-EFj" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-16" id="bNx-Os-lyo"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="6Fk-oj-4lQ" secondAttribute="bottom" id="cRJ-XP-qnf"/>
                             <constraint firstItem="c9g-yd-jbq" firstAttribute="top" secondItem="1kK-6M-EFj" secondAttribute="bottom" id="qJ1-dh-xBc"/>
                             <constraint firstAttribute="centerX" secondItem="6Fk-oj-4lQ" secondAttribute="centerX" id="uZW-Kr-kzh"/>
+                            <constraint firstItem="1kK-6M-EFj" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" id="xib-re-K26"/>
                         </constraints>
                         <variation key="default">
                             <mask key="constraints">
+                                <exclude reference="Hbh-cY-HBG"/>
+                                <exclude reference="IrL-w3-oe9"/>
+                                <exclude reference="YQD-M5-b17"/>
                                 <exclude reference="qJ1-dh-xBc"/>
                             </mask>
                         </variation>
